@@ -5,6 +5,7 @@ import TelaPrincipal from "./screens/TelaPrincipal";
 import TelaCamera from "./screens/TelaCamera";
 import TelaGaleria from "./screens/TelaGaleria";
 import TelaCodeBar from "./screens/TelaCodeBar";
+import TelaMapa from "./screens/TelaMapa/";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="TelaCamera" component={TelaCamera} />
         <Stack.Screen name="TelaGaleria" component={TelaGaleria} />
         <Stack.Screen name="TelaCodeBar" component={TelaCodeBar} />
+        <Stack.Screen name="TelaMapa" component={TelaMapa} />
       </Stack.Navigator>
 
     </NavigationContainer>
